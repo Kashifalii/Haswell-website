@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haswell website</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d1ef259b33.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center pe-5">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item slide">
+                            <a class="nav-link" aria-current="page" href="#one">sliders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#two">pages & features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#three">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#four">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#five">shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="six">shortcodes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#seven">contact</a>
+                        </li>
+                        <li>
+                            <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                                aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-magnifying-glass"
+                                    id="search-icon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- offcanvas -->
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header d-flex justify-content-end">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form action="" class="position-relative">
+                    <input class="w-100" type="text" placeholder="Search here">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </form>
+                <h5 class="cata">CATAGORIES</h5>
+                <!-- list -->
+                <ul class="list-unstyled ps-0 d-flex flex-column gap-3">
+                    <li><a href="#"><span><i class="fa-solid fa-hat-cowboy-side"></i></span> FASHION</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-copyright"></i></span> BRANDING</a></li>
+                    <li><a href="#"><span> <i class="fa-solid fa-store"></i></span> MARKETING</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-camera-retro"></i></span> PHOTOGRAPHY / MEDIA</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-pen-nib"></i></span> UI/UX DESIGNING</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-display"></i></span> WEB DESIGNING</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-mobile-screen-button"></i></span> APP DEVELOPMENT</a>
+                    </li>
+                    <li><a href="#"><span><i class="fa-solid fa-icons"></i></span> SOCIAL MEDIA</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-user-secret"></i></span> CYBER SECURITY</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-sack-dollar"></i></span> CRYPTO CURRENCY</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- ---- -->
+
+        <!-- header-content -->
+        <div class="container">
+            <div class="row mx-0 d-flex justify-content-end">
+                <div class="col-sm-6 col-12 content d-flex flex-column justify-content-center">
+                    <div class="inner w-100">
+                        <h1>Begin<br><span>Anywhere</span></h1>
+                        <p>Your passion will guide you</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section-1 -->
+    <div class="sec1" id="one">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-lg-4 col-12 image mb-lg-0 mb-5 d-lg-block d-flex justify-content-center">
+                    <img class="w-100 h-100" src="./assets/images/phone-with-arrow.png" alt="">
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="row mx-0 p-0 h-100 flex-column justify-content-center">
+                        <div class="col-12 heading d-md-block d-flex justify-content-center text-md-start text-center">
+                            <h1>WE ARE<br><span>CREATIVE</span></h1>
+                        </div>
+                        <div class="col-12 p-0">
+                            <div class="row mx-0 p-0">
+                                <!-- crd-1 -->
+                                <div
+                                    class="col-md-6 col-12 crd d-flex flex-md-row flex-column justify-content-center text-md-start text-center mb-4">
+                                    <i class="fa-regular fa-eye"></i>
+                                    <div class="txt">
+                                        <h5 class="heading">FULLY RESPONSIVE</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste nat eror acus antium que</p>
+                                    </div>
+                                </div>
+                                <!-- crd-2 -->
+                                <div
+                                    class="col-md-6 col-12 crd d-flex flex-md-row flex-column justify-content-center text-md-start text-center mb-4">
+                                    <i class="fa-regular fa-lightbulb"></i>
+                                    <div class="txt">
+                                        <h5 class="heading">RETINA READY</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste nat eror acus antium que</p>
+                                    </div>
+                                </div>
+                                <!-- crd-3 -->
+                                <div
+                                    class="col-md-6 col-12 crd d-flex flex-md-row flex-column justify-content-center text-md-start text-center mb-md-0 mb-4">
+                                    <i class="fa-brands fa-dribbble"></i>
+                                    <div class="txt">
+                                        <h5 class="heading">UNIQUE DESIGN</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste nat eror acus antium que</p>
+                                    </div>
+                                </div>
+                                <!-- crd-4 -->
+                                <div
+                                    class="col-md-6 col-12 crd d-flex flex-md-row flex-column justify-content-center text-md-start text-center">
+                                    <i class="fa-regular fa-clipboard"></i>
+                                    <div class="txt">
+                                        <h5 class="heading">EASY TO CUSTOMIZE</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste nat eror acus antium que</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-2 -->
+    <div class="sec2" id="two">
+        <div class="row mx-0">
+            <div
+                class="col-lg-6 col-12 txt-content d-flex flex-column align-items-center justify-content-center border border-top-1">
+                <div class="inner">
+                    <h1>MORE THEN<br><span>RESPONSIVE</span></h1>
+                    <p>Sed ut perspiciatis unde omnis iste nat eror acus antium que. Asperiores, ea velit enim labore
+                        doloribus.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 p-0 image">
+                <img class="w-100 h-100 object-fit-cover" src="./assets/images/fes2.jpg" alt="">
+                <div class="effect d-flex flex-column justify-content-center gap-3">
+                    <i class="fa-brands fa-canadian-maple-leaf"></i>
+                    <h3>The Himalayas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro veniam laboriosam ea sequi.
+                        Cum nam quibusdam quae.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class=" d-flex flex-lg-row flex-column-reverse p-0">
+                <div class="col-lg-6 col-12 p-0 image">
+                    <img class="w-100 h-100 object-fit-cover" src="./assets/images/fes3.jpg" alt="">
+                    <div class="effect d-flex flex-column justify-content-center gap-3">
+                        <i class="fa-solid fa-gopuram"></i>
+                        <h3>United Arab Emirates</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro veniam laboriosam ea sequi.
+                            Cum nam quibusdam quae.</p>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-6 col-12 txt-content d-flex flex-column align-items-center justify-content-center border border-bottom-1">
+                    <div class="inner">
+                        <h1>POWERFUL<br><span>PERFORMANCE</span></h1>
+                        <p>Sed ut perspiciatis unde omnis iste nat eror acus antium que. Asperiores, ea velit enim
+                            labore
+                            doloribus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-3 -->
+    <div class="sec3" id="three">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-md-4 col-12 head d-flex align-items-center mb-5 pb-md-0 pb-4 ms-md-0 ms-3">
+                    <h2>OUR <span>SERVICES</span></h2>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12  card border-0 mb-5">
+                    <div class="card-head d-flex mb-4">
+                        <i class="fa-brands fa-connectdevelop"></i>
+                        <div class="heading">
+                            <h5>DEVELOPMENT</h5>
+                            <p>LOREM IPSUM DOLOR</p>
+                        </div>
+                    </div>
+                    <p class="para">Maecenas luctus nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum
+                        pur quam
+                        volutpat suscipit antena.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12  card border-0 mb-5">
+                    <div class="card-head d-flex mb-4">
+                        <i class="fa-brands fa-algolia"></i>
+                        <div class="heading">
+                            <h5>PRODUCTION</h5>
+                            <p>LOREM IPSUM DOLOR</p>
+                        </div>
+                    </div>
+                    <p class="para">Seductio maesto nisi in sem fermentum blat. In nec elit solliudin, elementum, dictum
+                        pur quam volutpat suscipit antena.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12  card border-0 mb-md-0 mb-5">
+                    <div class="card-head d-flex mb-4">
+                        <i class="fa-brands fa-airbnb"></i>
+                        <div class="heading">
+                            <h5>BRANDING</h5>
+                            <p>LOREM IPSUM DOLOR</p>
+                        </div>
+                    </div>
+                    <p class="para">Donec vel luctus nisi in sem fermentum blat. In nec elit solliudin, elementum,
+                        dictum pur quam volutpat suscipit antena.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12  card border-0 mb-md-0 mb-5">
+                    <div class="card-head d-flex mb-4">
+                        <i class="fa-brands fa-figma"></i>
+                        <div class="heading">
+                            <h5>WEB DESIGN</h5>
+                            <p>LOREM IPSUM DOLOR</p>
+                        </div>
+                    </div>
+                    <p class="para">Lorem luctus antena at nisi in sem blandit. In nec elit soltudin, elementum odio et,
+                        dictum quam a volutpat elementum.</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-12  card border-0">
+                    <div class="card-head d-flex mb-4">
+                        <i class="fa-brands fa-think-peaks"></i>
+                        <div class="heading">
+                            <h5>PHOTOGRAPHY</h5>
+                            <p>LOREM IPSUM DOLOR</p>
+                        </div>
+                    </div>
+                    <p class="para">Fermentum nisi in sem fertum blat. In elit soldin, elemtum, arenam pur quam volutpat
+                        suscipit dictum pur quam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-4 -->
+    <div class="sec4" id="four">
+        <div class="main-wrapper d-flex flex-wrap justify-content-between">
+            <!-- 1 -->
+            <div class="c1">
+                <img src="./assets/images/six/projects-5.jpg" alt="">
+                <div class="effect">
+                    <h5>minimalism book</h5>
+                    <p>ui elenents / media</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="c1">
+                <img src="./assets/images/six/projects-3.jpg" alt="">
+                <div class="effect">
+                    <h5>clander</h5>
+                    <p>photography / media</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="c1">
+                <img src="./assets/images/six/projects-1.jpg" alt="">
+                <div class="effect">
+                    <h5>eye of the car</h5>
+                    <p>branding / marketing</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="c1">
+                <img src="./assets/images/six/projects-6.jpg" alt="">
+                <div class="effect">
+                    <h5>now is now</h5>
+                    <p>Design / marketing</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="c1">
+                <img src="./assets/images/six/projects-7.jpg" alt="">
+                <div class="effect">
+                    <h5>train to success</h5>
+                    <p>ui elenents / media</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="c1">
+                <img src="./assets/images/six/projects-4.jpg" alt="">
+                <div class="effect">
+                    <h5>love</h5>
+                    <p>photography / media</p>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="view d-flex align-items-center justify-content-center mt-3">
+            <p>view more projects</p>
+        </div>
+    </div>
+
+    <!-- section-5 -->
+    <div class="sec5" id="five">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-12 heading">
+                    <h2>OUR <span>SERVICES</span></h2>
+                </div>
+                <div class="col-lg-7 col-12 p-0 mb-lg-0 mb-4">
+                    <div class="row mx-0">
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/1.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/2.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/3.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/4.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/5.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/6.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/7.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 box d-flex align-items-center justify-content-center">
+                            <img src="./assets/images/clients/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 side-txt ">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, maiores esse temporibus
+                        accusantium quas soluta quis sed rerum.</p>
+                    <span>~ John Doe, Google Inc.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-6 -->
+    <div class="sec6 d-flex align-items-center justify-content-center">
+        <h1>be CREATIVE &nbsp; <span><a href="#" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i
+                        class="fa-regular fa-circle-play"></i></a></span> &nbsp; with
+            haswell</h1>
+        <!-- modal -->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <i class="fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
+                    <iframe width="100%" height="527" src="https://www.youtube.com/embed/e1dA5MLuS44"
+                        title="Is It Still Worth Becoming a Web Developer 2024?" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- section-7 -->
+    <div class="sec7" id="six">
+        <div class="container">
+            <div class="row mx-0">
+                <div
+                    class="col-12 heading d-flex flex-sm-row flex-column align-items-sm-center align-items-start justify-content-between">
+                    <h2>LATEST <span>NEWS</span></h2>
+                    <a href="#">OUR BLOG</a>
+                </div>
+                <div class="col-12">
+                    <div class="row mx-0">
+                        <!-- c1 -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-lg-0">
+                            <div class="card w-100 border-0 rounded-0 pe-1 ps-1">
+                                <div class="card-image overflow-hidden">
+                                    <a href="#"> <img src="assets/images/news/post-prev-1.jpg"
+                                            class="card-img-top rounded-0" alt="..."></a>
+                                </div>
+                                <div class="card-head  ps-0 pe-0 pt-4">
+                                    <h5 class="card-title">TIME FOR MINIMALISM</h5>
+                                    <p>JULE 10 / JOHN DOE</p>
+                                </div>
+                                <div class="card-body ps-0 pe-0 pt-4 pb-4">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium
+                                        magnam illo nostrum.</p>
+                                </div>
+                                <div class="card-footer bg-transparent d-flex justify-content-between pt-4 ps-0 pe-0">
+                                    <a href="#" class="card-link">READ MORE</a>
+                                    <div class="icon-grp d-flex align-items-center gap-3">
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-regular fa-comment"></i>
+                                            <p>21</p>
+                                        </div>
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-regular fa-heart"></i>
+                                            <p>53</p>
+                                        </div>
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c2 -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-lg-0 mt-md-0 mt-5">
+                            <div class="card w-100 border-0 rounded-0 pe-1 ps-1">
+                                <div class="card-image overflow-hidden">
+                                    <a href="#"> <img src="assets/images/news/post-prev-2.jpg"
+                                            class="card-img-top rounded-0" alt="..."></a>
+                                </div>
+                                <div class="card-head  ps-0 pe-0 pt-4">
+                                    <h5 class="card-title">NEW TRENDS IN WEB DESIGN</h5>
+                                    <p>MAY 11 / JOHN DOE</p>
+                                </div>
+                                <div class="card-body ps-0 pe-0 pt-4 pb-4">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium
+                                        magnam illo nostrum.</p>
+                                </div>
+                                <div class="card-footer bg-transparent d-flex justify-content-between pt-4 ps-0 pe-0">
+                                    <a href="#" class="card-link">READ MORE</a>
+                                    <div class="icon-grp d-flex align-items-center gap-3">
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-regular fa-comment"></i>
+                                            <p>21</p>
+                                        </div>
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-regular fa-heart"></i>
+                                            <p>53</p>
+                                        </div>
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- c3 -->
+                        <div class="col-lg-4 col-md-6 col-12 mt-lg-0 mt-5">
+                            <div class="card w-100 border-0 rounded-0 pe-1 ps-1">
+                                <div class="card-image overflow-hidden">
+                                    <a href="#"> <img src="assets/images/news/post-prev-3.jpg"
+                                            class="card-img-top rounded-0" alt="..."></a>
+                                </div>
+                                <div class="card-head  ps-0 pe-0 pt-4">
+                                    <h5 class="card-title">THE SOUND OF LIFE</h5>
+                                    <p>DECEMBER 21 / JOHN DOE</p>
+                                </div>
+                                <div class="card-body ps-0 pe-0 pt-4 pb-4">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium
+                                        magnam illo nostrum.</p>
+                                </div>
+                                <div class="card-footer bg-transparent d-flex justify-content-between pt-4 ps-0 pe-0">
+                                    <a href="#" class="card-link">READ MORE</a>
+                                    <div class="icon-grp d-flex align-items-center gap-3">
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-regular fa-comment"></i>
+                                            <p>21</p>
+                                        </div>
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-regular fa-heart"></i>
+                                            <p>53</p>
+                                        </div>
+                                        <div class="first d-flex align-items-center gap-2">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="seven">
+        <div class="email d-flex align-items-center justify-content-md-end justify-content-center">
+            <form action="#" class="d-flex flex-md-row  flex-column align-items-center gap-5">
+                <input type="email" placeholder="Enter your email">
+                <a href="@">SUBSCRIBE</a>
+            </form>
+        </div>
+        <div class="container">
+            <div class="row mx-0 main-wrapper">
+                <!-- detail -->
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-sm-4 mb-5 details d-flex flex-column gap-xl-5 gap-4">
+                    <a href="@"><img src="./assets/images/logo-footer.png" alt=""></a>
+                    <!-- address -->
+                    <div class="address d-flex gap-3">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p>555 California str, Suite 100<br>San Francisco, CA 94107</p>
+                    </div>
+                    <!-- phone -->
+                    <div class="address d-flex gap-3">
+                        <i class="fa-solid fa-headset"></i>
+                        <p>1-800-312-2121<br>1-800-310-1010</p>
+                    </div>
+                    <!-- email -->
+                    <div class="address d-flex gap-3">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                        <p>info@haswell.com<br>haswell78@gmail.com</p>
+                    </div>
+                </div>
+                <!-- navigation-1 -->
+                <div class="col-lg-3 col-sm-6 col-12 mb-lg-0 mb-4 navigate">
+                    <p>NAVIGATE</p>
+                    <ul class="d-flex flex-column gap-3">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">GRID STYSTEM</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PROTFOLIO</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">PAGES</a></li>
+                        <li><a href="#">SERVIVES</a></li>
+                    </ul>
+                </div>
+                <!-- navigation-2 -->
+                <div class="col-lg-3 col-sm-6 col-12 mb-sm-0 mb-4 navigate">
+                    <p>ABOUT US</p>
+                    <ul class="d-flex flex-column gap-3">
+                        <li><a href="#">COMPANY</a></li>
+                        <li><a href="#">WHAT TO DO</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">HELP CENTER</a></li>
+                        <li><a href="#">TREMS OF SERVICES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- navigation-2 -->
+                <div class="col-lg-3 col-sm-6 col-12 navigate">
+                    <p>RECENT POSTS</p>
+                    <ul class="d-flex flex-column gap-3">
+                        <li><a href="#">New trends in web design<br><span>July 10<sup>th</sup></span></a></li>
+                        <li><a href="#">The sound of life<br><span>October 7<sup>th</sup></span></a></li>
+                        <li><a href="#">Time for minimalism<br><span>September 21<sup>st</sup></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="color: #b2b2b2;">
+            <div class="last d-flex justify-content-between">
+                <a href="#" class="txt">&copy HASWELL 2023</a>
+                <div class="icon-grp d-flex gap-4">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstrap link js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <script src="./assets/bootstrap/js/bootstrap.js"></script> -->
+
+</body>
+
+</html>
